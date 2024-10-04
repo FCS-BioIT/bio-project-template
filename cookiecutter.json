@@ -1,0 +1,25 @@
+{
+    "description": null,
+    "research_group_id": ["AM", "TG", "FV", "XS", "IM", "CB"],
+    "assay": ["mRNA",
+	      "totRNA",
+	      "DNA",
+	      "scRNA10x",
+	      "snRNA10x",
+	      "int",
+	      "px",
+	      "mox",
+	      "mgx",
+	      "mome",
+	      "chip",
+	      "atac",
+	      "wgbs"
+	    ],
+    "author": "",
+    "version": "0.0.1",
+    "project_slug": "{{ cookiecutter.research_group_id.lower() }}-{{ cookiecutter.description.lower().replace(' ', '-') }}-{{ cookiecutter.assay.lower() }}",
+    "__prompts__": {
+        "project_name": "Please add a freeform project description ",
+	"project_slug": "Please confirm the final project slug or CTRL-C and start over."
+    }
+}
