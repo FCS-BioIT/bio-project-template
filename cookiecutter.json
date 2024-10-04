@@ -15,7 +15,7 @@
 	      "atac",
 	      "wgbs"
 	    ],
-    "author": "",
+    "author": null,
     "project_slug": "{{ cookiecutter.research_group_id.lower() }}-{{ cookiecutter.description.lower().replace(' ', '-') }}-{{ cookiecutter.assay.lower() }}",
     "__prompts__": {
         "project_name": "Please add a freeform project description ",
