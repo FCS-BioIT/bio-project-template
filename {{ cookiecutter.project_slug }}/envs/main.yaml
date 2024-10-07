@@ -62,7 +62,7 @@ dependencies:
   - mdurl=0.1.2=pyhd8ed1ab_0
   - nbformat=5.10.4=pyhd8ed1ab_0
   - ncurses=6.5=h7bae524_1
-  - numpy=2.1.1=py312h801f5e3_0
+  - numpy=2.1.2=py312h801f5e3_0
   - openssl=3.3.2=h8359307_0
   - packaging=24.1=pyhd8ed1ab_0
   - pandas=2.2.3=py312hcd31e36_1
@@ -79,7 +79,7 @@ dependencies:
   - pyparsing=3.1.4=pyhd8ed1ab_0
   - pysocks=1.7.1=pyha2e5f31_6
   - pytest=8.3.3=pyhd8ed1ab_0
-  - python=3.12.6=h739c21a_2_cpython
+  - python=3.12.7=h739c21a_0_cpython
   - python-dateutil=2.9.0=pyhd8ed1ab_0
   - python-fastjsonschema=2.20.0=pyhd8ed1ab_0
   - python-tzdata=2024.2=pyhd8ed1ab_0
@@ -90,20 +90,22 @@ dependencies:
   - referencing=0.35.1=pyhd8ed1ab_0
   - requests=2.32.3=pyhd8ed1ab_0
   - reretry=0.11.8=pyhd8ed1ab_0
-  - rich=13.9.1=pyhd8ed1ab_0
+  - rich=13.9.2=pyhd8ed1ab_0
   - rpds-py=0.20.0=py312he431725_1
   - setuptools=75.1.0=pyhd8ed1ab_0
   - six=1.16.0=pyh6c4a22f_0
   - slack-sdk=3.33.1=pyha770c72_0
   - slack_sdk=3.33.1=hd8ed1ab_0
-  - smart_open=7.0.4=pyhd8ed1ab_0
+  - smart_open=7.0.5=pyhd8ed1ab_1
   - smmap=5.0.0=pyhd8ed1ab_0
-  - snakemake=8.4.8=hdfd78af_0
-  - snakemake-interface-common=1.17.3=pyhdfd78af_0
-  - snakemake-interface-executor-plugins=8.2.0=pyhdfd78af_0
+  - snakemake=8.20.5=hdfd78af_0
+  - snakemake-executor-plugin-slurm=0.11.0=pyhdfd78af_0
+  - snakemake-executor-plugin-slurm-jobstep=0.2.1=pyhdfd78af_0
+  - snakemake-interface-common=1.17.4=pyhdfd78af_0
+  - snakemake-interface-executor-plugins=9.3.2=pyhdfd78af_0
+  - snakemake-interface-report-plugins=1.1.0=pyhdfd78af_0
   - snakemake-interface-storage-plugins=3.3.0=pyhdfd78af_0
-  - snakemake-minimal=8.4.8=pyhdfd78af_0
-  - stopit=1.1.2=py_0
+  - snakemake-minimal=8.20.5=pyhdfd78af_0
   - tabulate=0.9.0=pyhd8ed1ab_1
   - throttler=1.2.2=pyhd8ed1ab_0
   - tk=8.6.13=h5083fa2_1
