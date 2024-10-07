@@ -21,8 +21,8 @@ Upcoming - this part will be executed by a standardised pipeline.
 - Create the conda environment
 
 ```bash
-conda env create --file=envs/main.yaml
-conda activate {{ cookiecutter.project_slug }}
+mamba env create --file=envs/main.yaml
+mamba activate {{ cookiecutter.project_slug }}
 ```
 
 - Run the project
