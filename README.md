@@ -1,11 +1,13 @@
 # CompBio project template
 
-## Development conda environment
+## Installation and dependencies
 
-### To create a new conda enviroment
+### Pipx
 
-      conda env update --name myenv --file project-template.yml --prune
+1. Install [pipx](https://github.com/pypa/pipx)
 
-### To update conda environment
+2. Install cookiecutter
 
-      conda env update --name myenv --file project-template.yml --prune
+```bash
+pipx install cookiecutter
+```
