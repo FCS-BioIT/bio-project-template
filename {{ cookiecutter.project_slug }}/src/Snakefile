@@ -1,0 +1,5 @@
+"""Snakemake entrypoint for project {{ cookiecutter.project_slug }}."""
+
+
+rule all:
+    input: []
