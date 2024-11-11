@@ -72,6 +72,7 @@ dependencies:
   - plac=1.4.3=pyhd8ed1ab_0
   - platformdirs=4.3.6=pyhd8ed1ab_0
   - pluggy=1.5.0=pyhd8ed1ab_0
+  - pre_commit=4.0.1
   - psutil=6.0.0=py312h024a12e_1
   - pulp=2.8.0=py312h81bd7bf_0
   - pycparser=2.22=pyhd8ed1ab_0
