@@ -13,7 +13,14 @@
 	      "mome",
 	      "chip",
 	      "atac",
-	      "wgbs"
+	      "wgbs",
+	      "miRNA",
+	      "st",
+	      "scRNA10x-snRNA10x",
+	      "scRNA10x-snRNA10x-mome",
+	      "scRNA10x-px",
+	      "mRNA-scRNA10x",
+	      "scRNA10x-st-px"
 	    ],
     "author": null,
     "project_slug": "{{ cookiecutter.research_group_id.lower() }}-{{ cookiecutter.description.lower().replace(' ', '-') }}-{{ cookiecutter.assay.lower() }}",
