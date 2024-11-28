@@ -95,7 +95,13 @@ repos:
     hooks: 
       - id: style-files
         args: [--style_pkg=styler, --style_fun=tidyverse_style]
+        exclude: > 
+          (?x)^(
+          tests/testthat/in/.*|
+          renv/.*
+          )$
       - id: lintr
+        verbose: true
       - id: readme-rmd-rendered
       - id: parsable-R
       - id: no-browser-statement
