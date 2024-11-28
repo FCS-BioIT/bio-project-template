@@ -1,12 +1,12 @@
 {
   "description": null,
   "research_group_id": ["AM", "TG", "FV", "XS", "IM", "CB"],
-  "assay": null,
+  "assay": "",
   "author": null,
   "project_slug": "{{ cookiecutter.research_group_id.lower() }}-{{ cookiecutter.description.lower().replace(' ', '-') }}-{{ cookiecutter.assay.lower().replace(' ','').replace(',','-') }}",
   "__prompts__": {
     "project_name": "Please add a freeform project description:",
-    "assay": "Please enter one or more assays from the following list, separated by commas:\n\nmRNA, totRNA, DNA, scRNA10x, snRNA10x, int, px, mox, mgx, mome, chip, atac, wgbs, miRNA, st\n",
+    "assay": "assay: This is a predetermined value. After the template finishes you will choose the assay recursively. (Press enter)",
     "project_slug": "Please confirm the final project slug or press Enter to accept the default."
   }
 }
